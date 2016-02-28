@@ -3,7 +3,7 @@
 import requests
 from pprint import pprint
 from operator import itemgetter
-from datetime import datetime
+
 
 # Edit lines 11 & 12
 # Find your ChartMogul API Token and Secret key at https://app.chartmogul.com/#admin/api
