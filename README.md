@@ -20,7 +20,7 @@ This script pulls the MRR Churn rates from the Metrics API for a given time peri
   3. Run the script!
 
 ##### Configurations
-On line 31, the function `get_highes_values` takes in a start date and an end date which is the time interval for which the rates will be requested. These can be changed along with how many values to show using the `no_of_values` field. Note the values are returned from **highest to lowest**.
+On line 31, the function `get_highest_values` takes in a start date and an end date which is the time interval for which the rates will be requested. These can be changed along with how many values to show using the `no_of_values` field. Note the values are returned from **highest to lowest**.
 - `start`(Date) - The start date of the required period of data. An ISO-8601 formatted date, e.g. "2015-05-12"
 - `end` (Date) - The end date of the required period of data. An ISO-8601 formatted date, e.g. "2015-05-12"
 - `no_of_values` (int) - The number of rates to be returned in descending order
